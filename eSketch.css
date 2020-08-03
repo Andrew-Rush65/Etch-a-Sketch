@@ -1,0 +1,31 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+  }
+  
+  .container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+    grid-template-rows: repeat(var(--grid-rows), auto);
+    grid-template-columns: repeat(var(--grid-cols), auto);
+  }
+  
+  .grid-cell {
+    border: 1px solid #ddd;
+    background-color: white;
+  }
+
+  button {
+    height: 2rem;
+    width: 4rem;
+    margin: 1vw;
+  }
+
+  
